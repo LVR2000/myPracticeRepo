@@ -5,13 +5,14 @@ public class ApplicationMain {
 				"Apples",
 				"Bananas",
 				"Cucumbers",
-				"Cat Food",
+				"Cat Food and More Dog Food",
 				"Cereal", 
 				"Bread", 
 				"Eggs",
 				"Milk"
 		};
-		
+		System.out.println("My Shopping List");
+     	System.out.println();
 		for (String item: shopList) {
 			System.out.println(item);
 		}	
